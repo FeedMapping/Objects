@@ -1,38 +1,32 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: Create a bug report
 title: ''
-labels: 'bug'
+labels: bug, needs triage
 assignees: ''
 
 ---
 
-<!-- By contributing to this project, you agree to abide by the thoughtbot Code
-of Conduct: https://thoughtbot.com/open-source-code-of-conduct -->
+**Description:**
+A clear and concise description of what the bug is.
 
-### Description
+**Task version:**
+Specify the task version
 
-<!-- A clear and concise description of what the bug is. -->
+**Platform:**
+- [ ] Ubuntu
+- [ ] macOS
+- [ ] Windows
 
-### Reproduction Steps
+**Runner type:**
+- [ ] Hosted
+- [ ] Self-hosted
 
-<!-- Steps for others to reproduce the bug. Be as specific as possible. A
-reproduction script or link to a sample application that demonstrates the
-problem are especially helpful. -->
+**Repro steps:**  
+A description with steps to reproduce the issue. If your have a public example or repo to share, please provide the link.
 
-<!-- You can create a reproduction script by copying this sample reproduction
-script and adding whatever code is necessary to get a failing test case:
-https://github.com/thoughtbot/factory_bot/blob/main/.github/REPRODUCTION_SCRIPT.rb -->
+**Expected behavior:**
+A description of what you expected to happen.
 
-### Expected behavior
-
-<!-- What you expected to happen. -->
-
-### Actual behavior
-
-<!-- What happened instead. -->
-
-### System configuration
-**factory_bot version**:  
-**rails version**:  
-**ruby version**:
+**Actual behavior:**
+A description of what is actually happening.
